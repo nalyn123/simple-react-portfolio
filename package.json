@@ -1,5 +1,6 @@
 {
   "name": "simple-react-portfolio",
+  "homepage": "https://nalyn123.github.io/simple-react-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "start": "NODE_ENV=development webpack serve --open",
     "build": "NODE_ENV=production webpack",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
     "assert": "^2.1.0",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.4",
     "path-browserify": "^1.0.1",
     "sass": "^1.93.2",

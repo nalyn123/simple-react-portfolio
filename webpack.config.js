@@ -89,7 +89,7 @@ module.exports = {
         { from: "public/favicon.ico", to: "favicon.ico" },
         { from: "public/manifest.json", to: "manifest.json" },
         { from: "public/logo192.png", to: "logo192.png" },
-        { from: "public/index.html", to: "404.html" },
+        { from: "dist/index.html", to: "404.html" },
       ],
     }),
   ],
