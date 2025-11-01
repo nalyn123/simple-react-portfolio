@@ -8,6 +8,10 @@
   margin-top: -1px;
   padding-bottom: 50px;
 
+  .container {
+    max-width: 900px;
+  }
+
   &__box {
     background: #fffef8;
     padding-inline: 15px;
