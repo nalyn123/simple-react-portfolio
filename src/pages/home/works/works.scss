@@ -1,0 +1,109 @@
+@use "@utils/css/color.scss" as colors;
+
+.works {
+  position: relative;
+  background: colors.$works-bg;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: -1px;
+  padding-bottom: 50px;
+
+  &__box {
+    background: #fffef8;
+    padding-inline: 15px;
+    padding-bottom: 50px;
+  }
+
+  &__header {
+    position: relative;
+    color: #868686;
+    font-size: 36px;
+    font-weight: bold;
+
+    &::before {
+      position: absolute;
+      content: "";
+      bottom: -15px;
+      left: 0;
+      width: 100px;
+      height: 5px;
+      background-color: #efb6a5;
+    }
+  }
+
+  &__slider {
+    margin-top: 50px;
+    position: relative;
+
+    img {
+      filter: brightness(0.5);
+    }
+
+    .buttons {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+
+      p {
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+
+    .button {
+      display: block;
+      width: 250px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &.button1 {
+        background: #fff;
+        color: #000;
+        border: 1px solid #fff;
+      }
+
+      &.button2 {
+        background: none;
+        color: #fff;
+        border: 1px solid #fff;
+      }
+    }
+  }
+
+  .carousel__item {
+    position: relative;
+  }
+  .carousel__page {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 50px;
+    min-width: 50px;
+  }
+  .carousel__page__item {
+    width: 9px;
+    height: 9px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .carousel__page__item__active {
+    background: #fff;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__box {
+      padding-inline: 50px;
+    }
+  }
+}
