@@ -31,19 +31,19 @@ const Works = forwardRef((_, ref) => {
     {
       img: FloatingButtonImg,
       title: "Simple Floating Button (Library)",
-      url: "http://localhost:8080/simple-floating-button/",
+      url: "https://nalyn123.github.io/simple-react-portfolio/simple-floating-button/",
       codeUrl: "https://github.com/nalyn123/simple-react-floating-button",
     },
     {
       img: FloatingHoverImg,
       title: "Simple Floating Hover (Library)",
-      url: "http://localhost:8080/simple-floating-hover/",
+      url: "https://nalyn123.github.io/simple-react-portfolio/simple-floating-hover/",
       codeUrl: "https://github.com/nalyn123/simple-react-floating-hover",
     },
     {
       img: ScrollAnimationImg,
       title: "Simple Scroll Animation (Library)",
-      url: "http://localhost:8080/simple-scroll-animation/",
+      url: "https://nalyn123.github.io/simple-react-portfolio/simple-scroll-animation/",
       codeUrl: "https://github.com/nalyn123/simple-react-scroll-animation",
     },
   ];
