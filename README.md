@@ -2,7 +2,7 @@
 
 ## Website
 
-Visit: (https://nalyn123.github.io/simple-react-portfolio/)[https://nalyn123.github.io/simple-react-portfolio/]
+Visit: https://nalyn123.github.io/simple-react-portfolio/
 
 ## Install
 
